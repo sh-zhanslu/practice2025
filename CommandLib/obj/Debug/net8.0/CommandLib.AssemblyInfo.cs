@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CommandLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b627c55e6f777aa2dc91bf22c657e7b59176e75d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff6c972ce06014e590f6c021393ae7bfd9eba487")]
 [assembly: System.Reflection.AssemblyProductAttribute("CommandLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CommandLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
