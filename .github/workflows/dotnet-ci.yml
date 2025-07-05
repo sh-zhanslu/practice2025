@@ -1,0 +1,29 @@
+name: .NET CI Pipeline
+
+on:
+  push:
+    branches: [task07]
+  pull_request:
+    branches: [task07]
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest 
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+        
+    - name: Restore dependencies
+      run: dotnet restore practice2025.sln
+      
+    - name: Build solution
+      run: dotnet build practice2025.sln --configuration Release --no-restore
+      
+    - name: Run tests
+      run: dotnet test task07tests/task07tests.csproj --configuration Release --no-build
