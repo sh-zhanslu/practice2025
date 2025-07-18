@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "9vkVs4lK7sk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\79509\\OneDrive\\Документы\\Учебная практика 1 курс\\practice2025-1\\task13console\\task13console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\79509\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\79509\\.nuget\\packages\\system.io.pipelines\\9.0.7\\system.io.pipelines.9.0.7.nupkg.sha512",
+    "C:\\Users\\79509\\.nuget\\packages\\system.text.encodings.web\\9.0.7\\system.text.encodings.web.9.0.7.nupkg.sha512",
+    "C:\\Users\\79509\\.nuget\\packages\\system.text.json\\9.0.7\\system.text.json.9.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
